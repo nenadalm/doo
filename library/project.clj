@@ -1,4 +1,4 @@
-(defproject doo "0.1.11-SNAPSHOT"
+(defproject org.clojars.nenadalm/doo "0.1.11-SNAPSHOT"
   :description "doo is a library to run clj.test on different js environments."
   :url "https://github.com/bensu/doo"
   :license {:name "Eclipse Public License"
@@ -18,7 +18,7 @@
 
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/data.json "0.2.6"]
-                 [karma-reporter "2.1.2"]
+                 [org.clojars.nenadalm/karma-reporter "4.0.0-SNAPSHOT"]
                  [meta-merge "1.0.0"]]
 
   :jvm-opts ["-Xmx1g"]
